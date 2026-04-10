@@ -1,0 +1,7 @@
+[2026-04-10T05:35:20Z] === AST ITERATION 1 START | repo=boto/botocore sha=d831a061 ===
+[2026-04-10T05:35:20Z] [iter=1] PHASE START: ast repo=boto/botocore sha=d831a061
+[2026-04-10T05:35:20Z] [iter=1] Building AST aggregate chunks
+[2026-04-10T05:40:29Z] [iter=1] AST chunks built count=1 triples=4108956
+[2026-04-10T05:40:29Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/d831a0618fc491a30135f89f743ed12cc09280af/.complete
+[2026-04-10T05:40:29Z] [iter=1] PHASE END: ast elapsed_s=309 elapsed_min=5.2
+[2026-04-10T05:40:29Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
