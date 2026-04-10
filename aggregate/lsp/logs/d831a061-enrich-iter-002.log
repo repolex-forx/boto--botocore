@@ -1,0 +1,88 @@
+[2026-04-10T09:57:06Z] === ENRICH ITERATION 2 START | repo=boto/botocore sha=d831a061 ===
+[2026-04-10T09:57:06Z] [iter=2] PHASE START: enrich repo=boto/botocore sha=d831a061 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/d831a061-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/d831a0618fc491a30135f89f743ed12cc09280af.nq.gz
+[2026-04-10T09:57:06Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-10T09:57:42Z] [iter=2] AST store loaded triples=4108951 load_secs=35 mem_mb=890 MB
+[2026-04-10T09:57:42Z] [iter=2] Step 2: Finding LSP targets mem_mb=890 MB
+[2026-04-10T09:57:55Z] [iter=2] LSP targets found call_sites=25589 imports=1587 extends=611 implements=0 secs=12
+[2026-04-10T09:57:57Z] [iter=2] Loaded checkpoint partial graph triples=63102
+[2026-04-10T09:58:09Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=890 MB
+[2026-04-10T09:58:35Z] [iter=2] Position index built positions=295341 nodes_with_types=382210 secs=26 mem_mb=1086 MB
+[2026-04-10T09:58:35Z] [iter=2] Step 3: Starting LSP resolution mem_mb=1086 MB already_completed_types=[] already_completed_files=41
+[2026-04-10T09:58:35Z] [iter=2] Resolving target type target_type=call_site count=25589
+[2026-04-10T09:58:36Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=1.5 files_done=0 resolved=0 errors=0 current=botocore/client.py
+[2026-04-10T10:03:57Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=6.8 files_done=1 resolved=13 errors=197 current=tests/functional/test_retry.py
+[2026-04-10T10:06:52Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=9.8 files_done=2 resolved=47 errors=305 current=botocore/vendored/six.py
+[2026-04-10T10:12:42Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=15.6 files_done=3 resolved=160 errors=521 current=tests/functional/test_ec2.py
+[2026-04-10T10:13:40Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=16.6 files_done=4 resolved=171 errors=557 current=botocore/retryhandler.py
+[2026-04-10T10:14:56Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=17.8 files_done=5 resolved=185 errors=604 current=tests/__init__.py
+[2026-04-10T10:16:57Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=19.8 files_done=6 resolved=250 errors=678 current=tests/unit/response_parsing/test_response_parsing.py
+[2026-04-10T10:18:01Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=20.9 files_done=7 resolved=298 errors=717 current=tests/unit/test_utils.py
+[2026-04-10T10:47:17Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=50.2 files_done=8 resolved=411 errors=1798 current=tests/functional/test_plugins.py
+[2026-04-10T10:48:06Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=51.0 files_done=9 resolved=422 errors=1828 current=tests/unit/test_response.py
+[2026-04-10T10:52:00Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=54.9 files_done=10 resolved=473 errors=1972 current=tests/functional/test_tagged_unions_unknown.py
+[2026-04-10T10:58:08Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=61.0 files_done=12 resolved=506 errors=2199 current=tests/unit/test_session.py
+[2026-04-10T11:08:03Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=71.0 files_done=13 resolved=568 errors=2567 current=tests/unit/test_signers.py
+[2026-04-10T11:14:13Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=77.1 files_done=14 resolved=666 errors=2795 current=tests/unit/test_monitoring.py
+[2026-04-10T11:19:57Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=82.8 files_done=15 resolved=691 errors=3007 current=botocore/model.py
+[2026-04-10T11:23:22Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=86.3 files_done=16 resolved=703 errors=3134 current=botocore/docs/shape.py
+[2026-04-10T11:26:13Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=89.1 files_done=18 resolved=721 errors=3240 current=tests/functional/configured_endpoint_urls/test_configured_endpoint_url.py
+[2026-04-10T11:27:13Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=90.1 files_done=19 resolved=732 errors=3277 current=botocore/serialize.py
+[2026-04-10T11:33:26Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=96.3 files_done=20 resolved=823 errors=3507 current=botocore/docs/bcdoc/style.py
+[2026-04-10T11:37:20Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=100.2 files_done=21 resolved=825 errors=3652 current=tests/unit/crt/auth/test_crt_sigv4.py
+[2026-04-10T11:40:37Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=103.5 files_done=23 resolved=828 errors=3774 current=tests/unit/test_discovery.py
+[2026-04-10T11:44:20Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=107.2 files_done=24 resolved=845 errors=3912 current=tests/unit/test_translate.py
+[2026-04-10T11:46:13Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=109.1 files_done=26 resolved=854 errors=3982 current=botocore/parsers.py
+[2026-04-10T11:53:45Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=116.6 files_done=27 resolved=918 errors=4260 current=tests/functional/test_useragent.py
+[2026-04-10T11:56:28Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=119.4 files_done=28 resolved=924 errors=4361 current=tests/unit/test_eventstream.py
+[2026-04-10T11:58:10Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=121.1 files_done=29 resolved=945 errors=4424 current=botocore/args.py
+[2026-04-10T12:01:54Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=124.8 files_done=30 resolved=961 errors=4562 current=botocore/endpoint.py
+[2026-04-10T12:03:50Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=126.7 files_done=31 resolved=972 errors=4634 current=botocore/handlers.py
+[2026-04-10T12:10:08Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=133.0 files_done=32 resolved=1031 errors=4867 current=tests/unit/test_session_legacy.py
+[2026-04-10T12:18:04Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=141.0 files_done=33 resolved=1086 errors=5161 current=botocore/docs/client.py
+[2026-04-10T12:21:47Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=144.7 files_done=34 resolved=1091 errors=5299 current=botocore/retries/standard.py
+[2026-04-10T12:23:30Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=146.4 files_done=35 resolved=1098 errors=5363 current=tests/unit/test_compress.py
+[2026-04-10T12:25:03Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=147.9 files_done=36 resolved=1118 errors=5420 current=tests/integration/test_client_http.py
+[2026-04-10T12:27:38Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=150.5 files_done=37 resolved=1141 errors=5516 current=tests/unit/conftest.py
+[2026-04-10T12:29:40Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=152.6 files_done=39 resolved=1177 errors=5591 current=tests/unit/test_http_session.py
+[2026-04-10T12:34:25Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=157.3 files_done=40 resolved=1194 errors=5767 current=tests/unit/test_parsers.py
+[2026-04-10T12:42:32Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=165.4 files_done=41 resolved=1206 errors=6068 current=tests/unit/retries/test_standard.py
+[2026-04-10T12:48:11Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=171.1 files_done=42 resolved=1224 errors=6278 current=tests/unit/test_tokens.py
+[2026-04-10T12:49:08Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=172.0 files_done=43 resolved=1231 errors=6313 current=botocore/loaders.py
+[2026-04-10T12:50:09Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=173.1 files_done=44 resolved=1263 errors=6351 current=botocore/waiter.py
+[2026-04-10T12:51:27Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=174.3 files_done=45 resolved=1277 errors=6399 current=tests/functional/test_account_id_endpoints.py
+[2026-04-10T12:51:59Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=174.9 files_done=46 resolved=1279 errors=6419 current=botocore/docs/bcdoc/restdoc.py
+[2026-04-10T12:53:02Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=175.9 files_done=47 resolved=1296 errors=6458 current=tests/unit/test_stub.py
+[2026-04-10T12:54:38Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=177.5 files_done=48 resolved=1310 errors=6517 current=tests/unit/test_validate.py
+[2026-04-10T12:57:44Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=180.6 files_done=49 resolved=1316 errors=6632 current=botocore/retries/adaptive.py
+[2026-04-10T12:58:15Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=181.1 files_done=50 resolved=1324 errors=6651 current=tests/functional/test_public_apis.py
+[2026-04-10T13:01:41Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=184.6 files_done=52 resolved=1396 errors=6778 current=tests/unit/test_protocols.py
+[2026-04-10T13:05:00Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=187.9 files_done=53 resolved=1454 errors=6900 current=tests/unit/retries/test_adaptive.py
+[2026-04-10T13:06:13Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=189.1 files_done=54 resolved=1467 errors=6945 current=tests/unit/retries/test_throttling.py
+[2026-04-10T13:06:59Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=189.9 files_done=55 resolved=1467 errors=6974 current=tests/functional/test_cognito_idp.py
+[2026-04-10T13:09:44Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=192.6 files_done=57 resolved=1474 errors=7076 current=tests/functional/test_route53.py
+[2026-04-10T13:10:22Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=193.3 files_done=58 resolved=1478 errors=7099 current=botocore/context.py
+[2026-04-10T13:11:25Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=194.3 files_done=60 resolved=1482 errors=7138 current=botocore/paginate.py
+[2026-04-10T13:13:51Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=196.7 files_done=61 resolved=1537 errors=7228 current=tests/functional/test_config_provider.py
+[2026-04-10T13:14:35Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=197.5 files_done=62 resolved=1538 errors=7255 current=tests/unit/test_regions.py
+[2026-04-10T13:20:22Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=203.3 files_done=63 resolved=1541 errors=7470 current=botocore/auth.py
+[2026-04-10T13:25:57Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=208.9 files_done=64 resolved=1650 errors=7675 current=tests/unit/test_s3_addressing.py
+[2026-04-10T13:27:04Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=210.0 files_done=65 resolved=1664 errors=7716 current=tests/functional/docs/__init__.py
+[2026-04-10T13:28:15Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=211.1 files_done=66 resolved=1673 errors=7760 current=tests/unit/docs/bcdoc/test_document.py
+[2026-04-10T13:30:08Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=213.0 files_done=67 resolved=1673 errors=7830 current=botocore/awsrequest.py
+[2026-04-10T13:32:06Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=215.0 files_done=68 resolved=1711 errors=7903 current=tests/functional/test_sts.py
+[2026-04-10T13:34:07Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=217.0 files_done=69 resolved=1716 errors=7978 current=tests/unit/test_auth_sigv4.py
+[2026-04-10T13:35:38Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=218.5 files_done=71 resolved=1728 errors=8034 current=tests/functional/leak/test_resource_leaks.py
+[2026-04-10T13:36:46Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=219.7 files_done=72 resolved=1734 errors=8076 current=botocore/eventstream.py
+[2026-04-10T13:38:02Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=220.9 files_done=73 resolved=1750 errors=8123 current=tests/unit/test_awsrequest.py
+[2026-04-10T13:43:34Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=226.5 files_done=74 resolved=1787 errors=8328 current=tests/functional/test_rpc_v2_cbor.py
+[2026-04-10T13:46:32Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=229.4 files_done=76 resolved=1795 errors=8438 current=botocore/docs/bcdoc/docstringparser.py
+[2026-04-10T13:47:54Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=230.8 files_done=77 resolved=1837 errors=8489 current=tests/unit/test_decorators.py
+[2026-04-10T13:48:50Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=231.7 files_done=79 resolved=1867 errors=8523 current=botocore/signers.py
+[2026-04-10T13:51:06Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=234.0 files_done=80 resolved=1887 errors=8606 current=botocore/docs/utils.py
+[2026-04-10T13:51:43Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=234.6 files_done=81 resolved=1895 errors=8629 current=botocore/response.py
+[2026-04-10T13:52:25Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=235.3 files_done=82 resolved=1902 errors=8655 current=tests/functional/test_discovery.py
+[2026-04-10T13:55:56Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=238.8 files_done=83 resolved=1913 errors=8785 current=botocore/regions.py
+[2026-04-10T13:57:18Z] [iter=2] CHECKPOINT TRIGGERED elapsed_min=240.2 files_completed=124 new_files_this_iter=83 mem_mb=1111 MB
+[2026-04-10T13:57:18Z] [iter=2] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/d831a0618fc491a30135f89f743ed12cc09280af.nq.gz triples=119249
+[2026-04-10T13:57:21Z] [iter=2] Checkpoint written, exiting with code 7
+[2026-04-10T13:57:21Z] [iter=2] PHASE END: enrich (checkpointed) elapsed_s=14413 elapsed_min=240.2 files_completed=124
