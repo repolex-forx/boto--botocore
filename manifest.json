@@ -5781,6 +5781,109 @@
       ],
       "ast": [
         "aggregate/ast/e83647ba9c024bd85cd16d4fc7bdcb1d3ef606b5/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/e83647ba9c024bd85cd16d4fc7bdcb1d3ef606b5.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "tox",
+          "ecosystem": "PYPI",
+          "version": "2.5.0",
+          "githubOrg": "tox-dev",
+          "githubRepo": "tox",
+          "githubCommit": "1e888ce9b87d87045479ed4c320be803b05b0f38",
+          "githubTag": "2.5.0",
+          "githubUrl": "https://github.com/tox-dev/tox",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "python-dateutil",
+          "ecosystem": "PYPI",
+          "version": "2.1",
+          "githubOrg": "dateutil",
+          "githubRepo": "dateutil",
+          "githubCommit": "41d96ae8239a1643d0b1214238b8398deb823f18",
+          "githubTag": "2.1",
+          "githubUrl": "https://github.com/dateutil/dateutil",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "mock",
+          "ecosystem": "PYPI",
+          "version": "1.3.0",
+          "githubOrg": "testing-cabal",
+          "githubRepo": "mock",
+          "githubCommit": "e34a7cb293a40f03b8d5a5e7d95f60429233c471",
+          "githubTag": "1.3.0",
+          "githubUrl": "https://github.com/testing-cabal/mock",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "wheel",
+          "ecosystem": "PYPI",
+          "version": "0.24.0",
+          "githubOrg": "pypa",
+          "githubRepo": "wheel",
+          "githubCommit": "cd0935c4fe92a15ea83057a9357347ae8d6a138e",
+          "githubTag": "0.24.0",
+          "githubUrl": "https://github.com/pypa/wheel",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "behave",
+          "ecosystem": "PYPI",
+          "version": "1.2.5",
+          "githubOrg": "behave",
+          "githubRepo": "behave",
+          "githubCommit": "9220931c751e7f9b7fbc5e1941449786fe50f1a2",
+          "githubTag": "v1.2.5",
+          "githubUrl": "https://github.com/behave/behave",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "jsonschema",
+          "ecosystem": "PYPI",
+          "version": "2.5.1",
+          "githubOrg": "python-jsonschema",
+          "githubRepo": "jsonschema",
+          "githubCommit": "3f459b73a2c27fcbf9356e7bd9ff5ac27fb5bac7",
+          "githubTag": "v2.5.1",
+          "githubUrl": "https://github.com/python-jsonschema/jsonschema",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "certifi",
+          "ecosystem": "PYPI",
+          "version": "2026.7.22",
+          "githubOrg": "certifi",
+          "githubRepo": "python-certifi",
+          "githubUrl": "https://github.com/certifi/python-certifi",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/certifi/__init__.py"
+        },
+        {
+          "packageName": "urllib3",
+          "ecosystem": "PYPI",
+          "version": "2.8.0",
+          "githubOrg": "urllib3",
+          "githubRepo": "urllib3",
+          "githubCommit": "b1d30ab61fe0db8f11092805e8c5ac43e091064a",
+          "githubTag": "2.8.0",
+          "githubUrl": "https://github.com/urllib3/urllib3",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/urllib3/connectionpool.py"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.0.0",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "72e919a8b10aaafc041205d4e3ae0e6a2e1e5f87",
+          "githubTag": "v84.0.0",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/setuptools/__init__.py"
+        }
       ]
     },
     {
