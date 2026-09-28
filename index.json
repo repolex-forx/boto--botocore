@@ -1,5 +1,16 @@
 {
   "org": "boto",
   "repo": "botocore",
-  "versions": []
+  "versions": [
+    {
+      "commit": "e83647ba9c024bd85cd16d4fc7bdcb1d3ef606b5",
+      "tag": "1.9.9",
+      "parsed_at": "2026-09-28T07:05:00.224878+00:00"
+    },
+    {
+      "commit": "d831a0618fc491a30135f89f743ed12cc09280af",
+      "tag": "1.42.86",
+      "parsed_at": "2026-04-10T05:29:41.013251+00:00"
+    }
+  ]
 }
